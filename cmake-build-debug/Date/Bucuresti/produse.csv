@@ -1,0 +1,27 @@
+nume,pret vanzare,pret achizitie,unitati in stoc
+espresso,9,6,20
+cappuccino,12,8,18
+latte macchiato,15,10,15
+flat white,14,10,25
+mocha,16,12,10
+frappe,17,13,8
+ceai verde,10,7,22
+ceai negru,9,6,30
+ceai de fructe,12,8,18
+ciocolata calda,13,9,14
+croissant simplu,7,5,25
+croissant cu ciocolata,9,7,18
+muffin cu afine,10,7,12
+muffin cu ciocolata,11,8,10
+tarta cu fructe,15,12,8
+prajitura tiramisu,18,14,6
+cheesecake,16,12,8
+sandvis cu sunca si cascaval,20,15,12
+sandvis vegetarian,18,14,10
+bagheta cu pui,22,17,8
+salata de fructe,14,10,10
+fresh portocale,12,9,18
+smoothie capsuni si banane,16,12,12
+smoothie mango si ananas,17,13,10
+apa plata,6,4,50
+apa minerala,7,5,40

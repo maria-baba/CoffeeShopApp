@@ -1,0 +1,3 @@
+C:/Users/surug/CLionProjects/PROIECT-POO/cmake-build-debug/CMakeFiles/PROIECT_POO.dir
+C:/Users/surug/CLionProjects/PROIECT-POO/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/surug/CLionProjects/PROIECT-POO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
