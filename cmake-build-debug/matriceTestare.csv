@@ -1,0 +1,21 @@
+test ID,descriere test,date intrare,rezultat asetptat
+1,validare data,01/32/2025,data invalida(se reia citirea pana la introducerea unei date valide)
+2,adaugare angajat,01/01/2024 1 Ion Popescu 4 1 Maria Surugiu barista 65 marti 09-12 duminia 09-12 stop 4 9 6,se afiseaza adtele din csv fara angajatul adaugat apoi se afiseaza datele din csv cu angajatul adaugat
+3,stergere angajat,02/01/2025 4 Ana Dumitrescu 4 2 Maria Popescu 4 9 6,se afiseaza datele din csv intai cu angajatul sters apoi se afiseaza datele din csv fara angajatul sters
+4,modificare tura angajat,03/01/2026 3 Robert Ion 4 3 Simona Stroe luni 09-18 stop 4 9 6,se afiseaza datele din csv cu tura veche a angajatului apoi se afiseaza datele din csv cu tura noua a angajatulu
+5,adauga eveniment special,01/01/2025 5 Florin Vasilescu 7 5 01/01/2026 Revelion 300 7 9 6,se afiseaza datele din csv fara evenimentul adaugat apoi se afiseaza datele din csv cu evenimentul adaugat
+6,sterge eveniment special,03/03/2025 2 Cristina Dobre 7 6 Muzica live 7 9 6,se afiseaza datele din csv cu evenimentul sters apoi se afiseaza datele din csv fara evenimentul sters
+7,genereaza raport,08/03/2025 1 Ion Popescu 8 9 6,se afiseaza raportul generat(la aceasta data este si un eveniment special)
+8,adauga comanda,01/12/2025 1 Marian Rosca 2 1 Ana-Maria C cappuccino gata 2 3 6,se afiseaza datele din csv fara comanda adaugata apoi se afiseaza datele din csv cu comanda adaugata(si cu reducere in acest caz)
+9,reinnoire stoc,01/01/2025 3 Alexandru Marin 2 1 Elena frappe frappe frappe gata 2 3 6,apar mesaje legate de reinnoirea stocului si acesta e reinnoit in csv cu 20 de unitati
+10,adauga produs,03/03/2025 3 Elena Dumitru 2 1 ceai portocale 8 10 50 2 4 6,se afiseaza datele din csv fara produsul adaugat apoi se afiseaza datele din csv cu produsul adaugat
+11,sterge produs,05/05/2025 5 Raluca Andrei 2 3 salata de fructe 2 4 6 se afiseaza datele din csv cu produsul sters apoi se afiseaza datele din csv fara produsul sters
+12,optiune invalida oras,01/01/2025 7,oras invalid(se reia citirea pana la introducerea unui oras valid)
+13,angajat inexistent,01/01/2025 5 Mara Cotaie,angajat inexistent(se revine la meniul principal cu selectare oras)
+14,sterge angajat inexistent,01/01/2025 1 Elena Mina,angajatul nu e gasit(se revine la meniul managerului)
+15,tura invalida,01/01/2025 4 Ana Dumitrescu 3 Ionel Ionescu luni,ora invalida(se reia citirea pana la introducerea unei ore valide)
+16,stergere eveniment inexistent,01/01/2025 3 Robert Ion 6 Ziua Mamei,eveniment inexistent(se revine la meniul managerului)
+17,comanda produs inexistent,01/01/2025 2 Diana Georgescu 1 Matei ceai negru,produs inexistent(se reia citirea pana la introducerea unui produs existent in meniu, indiferent de stoc)
+18,reducere la fiecare 5 comenzi,01/01/2025 4 Ionel Ionescu 2 1 Alex ceai verde gata 2 3 6,se afiseaza datele din csv fara comanda adaugata apoi se afiseaza datele din csv cu comanda adaugata(si cu reducere la a 10-a comanda)
+19,raport fara eveniment special,01/02/2025 2 Larisa Ionescu 8 9 6,se afiseaza raportul generat(la aceasta data nu este niciun eveniment special si nicun salariu de plata-in orasul selectat(2), nu sunt angajati sambata)
+20,reinnoire stoc,01/01/2025 5 Adrian Gheorghe 2 1 muffin cu afine muffin cu afine gata 2 3 6,apar mesaje legate de reinnoirea stocului si acesta e reinnoit in csv cu 20 de unitati din care mai raman 18 in urma comenzii

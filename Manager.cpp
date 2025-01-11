@@ -111,6 +111,7 @@ double Manager::calculVenituriProduse(const string& filePathComenzi) {
         getline(ss, element, ','); // Primul camp (nume client) - ignorat
         getline(ss, element, ','); // Al doilea câmp (pret total)
 
+        cout << "Pret total: " << element << "\n";
         try {
             double pretTotal = stod(element); // conversia în double
             venituriTotale += pretTotal;

@@ -4,7 +4,7 @@ cappuccino,12,8,18
 latte macchiato,15,10,15
 flat white,14,10,20
 mocha,16,12,14
-frappe,17,13,16
+frappe,17,13,2
 ceai de fructe,12,8,18
 ceai de tei,9,6,14
 ceai negru,10,7,20
@@ -25,3 +25,4 @@ smoothie mango si papaya,17,13,18
 smoothie capsuni si banane,16,12,10
 apa plata,6,4,65
 apa minerala,7,5,55
+

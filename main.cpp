@@ -127,7 +127,6 @@ int main() {
     return 0;
 }
 
-
 bool valideazaData(const string& data) {
     // expresie regulată pentru formatul dd/mm/yyyy
     regex formatData(R"((0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[0-2])/(\d{4}))");
